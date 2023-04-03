@@ -1,0 +1,67 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd /home
+    7  mkdir test1
+    8  ls .
+    9  mkdir test2/test3
+   10  touch test1/index.php
+   11  ls test1
+   12  cd test1
+   13  cp index.php copy.php
+   14  ls
+   15  cd -
+   16  echo '# Hello World' > README.md
+   17  cat README.md
+   18  echo '# Server Lesson' > README.md
+   19  $ cat README.md
+   20  echo '# Server Lesson' > README.md
+   21  cat README.md 
+   22  echo 'Linux Practice' >> README.md
+   23  echo '-----------------' >> README.md
+   24  cat README.md 
+   25  vi README.md 
+   26  cd /root
+   27  mkdir server_lesson && cd server_lesson
+   28  yum update -y && yum -y install git
+   29  git version
+   30  git init
+   31  touch first.txt
+   32  mkdir -p linux_practice1/public
+   33  ls
+   34  ls linux_practice1/
+   35  touch linux_practice1/public/index.php
+   36  cp linux_practice1/public/index.php index_bk.php
+   37  cp -r linux_practice1/public linux_practice1/tmp
+   38  ls
+   39  rm index_bk.php 
+   40  ls
+   41  cp linux_practice1/public/index.php linux_practice1/public/index_bk.php
+   42  rm -r linux_practice1
+   43  ls
+   44  l linux_practice1/
+   45  ls linux_practice1/
+   46  rm -r linux_practice1/tmp
+   47  ls linux_practice1/
+   48  rm -r linux_practice1/tmp
+   49  ls linux_practice1/
+   50  cp -r linux_practice1/public linux_practice1/tmp
+   51  ls linux_practice1/
+   52  rm linux_practice1/tmp/index_bk.php 
+   53  touch README.md
+   54  vi README.md
+   55  mkdir linux_practice2
+   56  cd linux_practice2
+   57  mkdir documents
+   58  touch documents/gizumo{01..50}.md
+   59  ls documents/
+   60  mkdir trash
+   61  ls
+   62  mv documents/gizumo{20..40}.md trash
+   63  ls trash
+   64  touch .gitignore
+   65  vi .gitignore 
+   66  history 300 > exec_command.log
+
